@@ -1,9 +1,10 @@
-import Container from "../components/layout/container";
-import Title from "../components/Title";
+import Title from "../components/Title/Title";
+import Container from "../components/layout/Container/Container";
+
 const Login = () => {
   return (
     <Container>
-      <Title>Login</Title>;
+      <Title>Login</Title>
     </Container>
   );
 };
